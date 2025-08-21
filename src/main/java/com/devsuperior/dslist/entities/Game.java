@@ -26,7 +26,7 @@ import jakarta.persistence.Table;
         private Double score;
         private String imgUrl;
 
-        @Column(columnDefinition = "TEXT")
+        @Column(columnDefinition = "TEXT") /* Macete para a JPA ler o texto mais longo */
         private String shortDescription;
 
         @Column(columnDefinition = "TEXT")
